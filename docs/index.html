@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Новини</title>
+</head>
+<body>
+  <h1>🔍 Новини з ключовими словами</h1>
+  <div id="results">Завантаження...</div>
+  <script>
+    fetch('results.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('results');
+        container.innerHTML = data.map(entry =>
+          `<div><b>${entry.source}</b><br><a href="${entry.url}" target="_blank">${entry.url}</a></div>`
+        ).join('');
+      })
+      .catch(() => document.getElementById('results').innerText = 'Помилка завантаження.');
+  </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+[
+  {
+    "name": "UNHCR",
+    "url": "https://www.unhcr.org/ua/news",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".view-content a"
+  },
+  {
+    "name": "IOM Ukraine",
+    "url": "https://ukraine.iom.int/news",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true
+  },
+  {
+    "name": "CCCM Cluster",
+    "url": "https://www.cccmcluster.org/where-we-work/ukraine",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".node__title a"
+  },
+  {
+    "name": "ReliefWeb API",
+    "url": "https://api.reliefweb.int/v1/reports?appname=parser&query.value=ukraine&limit=50",
+    "type": "api",
+    "paginate": false,
+    "year_filter": true
+  },
+  {
+    "name": "Global Protection Cluster",
+    "url": "https://globalprotectioncluster.org/emergencies/113/Ukraine",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".view-content a"
+  },
+  {
+    "name": "R2P",
+    "url": "https://r2p.org.ua/category/news/",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".entry-title a"
+  },
+  {
+    "name": "MinReintegration",
+    "url": "https://www.minre.gov.ua/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true
+  },
+  {
+    "name": "ICRC",
+    "url": "https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".views-row a"
+  },
+  {
+    "name": "UNOCHA Ukraine",
+    "url": "https://www.unocha.org/ukraine",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".field-content a"
+  },
+  {
+    "name": "ReliefWeb RSS",
+    "url": "https://reliefweb.int/headlines/rss.xml",
+    "type": "rss",
+    "paginate": false,
+    "year_filter": true
+  },
+  {
+    "name": "ACAPS Ukraine",
+    "url": "https://www.acaps.org/en/countries/ukraine",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".card-title a"
+  },
+  {
+    "name": "HDX",
+    "url": "https://data.humdata.org/group/ukr",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true
+  },
+  {
+    "name": "Вінницька ОВА",
+    "url": "https://vin.gov.ua/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news-list a"
+  },
+  {
+    "name": "Чернівецька ОВА",
+    "url": "https://bukoda.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".post-title a"
+  },
+  {
+    "name": "Полтавська ОВА",
+    "url": "https://poda.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news-item a"
+  },
+  {
+    "name": "Донецька ОВА",
+    "url": "https://dn.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".article a"
+  },
+  {
+    "name": "Закарпатська ОВА",
+    "url": "https://carpathia.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".main-news a"
+  },
+  {
+    "name": "Київська ОВА",
+    "url": "https://koda.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news-list a"
+  },
+  {
+    "name": "Луганська ОВА",
+    "url": "https://lova.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news-block a"
+  },
+  {
+    "name": "Миколаївська ОВА",
+    "url": "https://www.mk.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news__title a"
+  },
+  {
+    "name": "Одеська ОВА",
+    "url": "https://oda.od.gov.ua/ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".blog-item a"
+  },
+  {
+    "name": "Херсонська ОВА",
+    "url": "https://khoda.gov.ua",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".view-content a"
+  },
+  {
+    "name": "REACH Initiative",
+    "url": "https://www.reach-initiative.org/where-we-work/ukraine/",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".article-preview a"
+  },
+  {
+    "name": "NRC Ukraine",
+    "url": "https://www.nrc.no/news/ukraine/",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".article-list a"
+  },
+  {
+    "name": "ACTED Ukraine",
+    "url": "https://www.acted.org/en/countries/ukraine/",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".news-item a"
+  },
+  {
+    "name": "Danish Refugee Council",
+    "url": "https://pro.drc.ngo/resources/",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true
+  },
+  {
+    "name": "Oxfam Ukraine",
+    "url": "https://www.oxfam.org/en/ukraine-crisis",
+    "type": "deep_html",
+    "paginate": false,
+    "year_filter": true,
+    "link_selector": ".article-title a"
+  },
+  {
+    "name": "Caritas Ukraine",
+    "url": "https://caritas.ua/news/",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true
+  },
+  {
+    "name": "Урядовий портал",
+    "url": "https://www.kmu.gov.ua/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".posts-list a"
+  },
+  {
+    "name": "ДСНС",
+    "url": "https://dsns.gov.ua/ua/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news__item a"
+  },
+  {
+    "name": "Мінсоцполітики",
+    "url": "https://www.msp.gov.ua/news.html",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true,
+    "link_selector": ".news_list a"
+  },
+  {
+    "name": "ЄДопомога",
+    "url": "https://edopomoga.gov.ua/news",
+    "type": "deep_html",
+    "paginate": true,
+    "year_filter": true
+  }
+]
